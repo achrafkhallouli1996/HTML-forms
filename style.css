@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+    float: left;
+    width: 30%;
+    height: 800px; /* only for demonstration, should be removed */
+    background: #ccc;
+    padding: 20px;
+     background-color: lightblue;
+}
+
+
+body {
+    background-color: blue;
+}
+h1 {
+	margin-left: 20%;
+	
+border: none;
+padding: -10px;}
+h2 {
+    color: blue;
+    text-align: ;
+    font-size: 30px;
+}
+
+h3 {   font-family: verdana;
+    font-size: 20px;
+    color: blue;
+}
+
+
+img {
+    height: 250px;
+    width: 250px;
+}
+form {        float: left;
+    padding: 20px;
+    width: 70%;
+    background-color: #f1f1f1;
+    height: 800px; /* only for demonstration, should be removed */
+
+}
+section
+{
+	width: 60%;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+section:after {
+    content: "";
+    display: table;
+    clear: both;
+
+
+}
+
+
+@media (max-width: 600px) {
+    div, form {
+        width: 100%;
+        height: auto;
+    }
